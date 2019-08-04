@@ -1,0 +1,23 @@
+I am interested in making an http call for storing the contact list.
+And getting the list of the common people.
+
+I will be needing an httpClient to make the call.
+
+Now there can be two ways to make the call
+1) Creating a thread in the main activity and making a call through it.
+2) Having a dedicated service that will run in the background to retrieve the result.
+
+
+MainActivity will start the HttpClientService once the button is clicked
+and the service will start executing the client code to make an http call
+and will return the result to the main activity
+which will show the loader while the result is loading.
+and once the results are load completely the service will be down and it will close.
+
+Add the menu item
+Add the code for sharing the app, when the other contact is not
+present
+
+I am getting the signup response from the general user
+I have to s
+
